@@ -6,29 +6,25 @@ $(document).ready( () => {
 	})
 	// Slide fone
 	$('.main__bg1').slick({
-		dots: true,
-		appendDots:$('.slider__dots'),
 		infinite: true,
 		autoplay: true,
 		autoplaySpeed: 15000,
 		pauseOnFocus: false,
 		pauseOnHover: false,
 		arrows: false,
-		speed: 500,
+		speed: 1000,
 		fade: true,
 		dots: false,
 		cssEase: 'linear',
 	  });
 	$('.main__bg2').slick({
-		dots: true,
-		appendDots:$('.slider__dots'),
 		infinite: true,
 		autoplay: true,
 		autoplaySpeed: 15000,
 		pauseOnFocus: false,
 		pauseOnHover: false,
 		arrows: false,
-		speed: 500,
+		speed: 1000,
 		fade: true,
 		dots: false,
 		cssEase: 'linear',
