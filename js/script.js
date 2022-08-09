@@ -16,7 +16,7 @@ $(document).ready( () => {
 		fade: true,
 		dots: false,
 		cssEase: 'linear',
-	  });
+	});
 	$('.main__bg2').slick({
 		infinite: true,
 		autoplay: true,
@@ -28,5 +28,11 @@ $(document).ready( () => {
 		fade: true,
 		dots: false,
 		cssEase: 'linear',
-	  });
+	});
+
+	// Click Image
+	console.log($('.portf__item img'));
+	$('.portf__item img').click(e => {
+		$('.wrapper').innerHTML = `${e.target}`
+	})
 });
