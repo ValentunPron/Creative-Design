@@ -215,25 +215,65 @@ a:hover {
   height: 530px;
   width: 600px;
   z-index: 1;
+  animation: animation_name1 15s linear infinite;
 }
 
 .main__bg1 img {
   height: 530px;
   width: 600px;
+  animation: animation_name1 15s linear infinite;
 }
 
 .main__bg2 {
   position: absolute;
-  height: 530px;
-  width: 600px;
   bottom: 0;
   left: -10%;
+  height: 530px;
+  width: 600px;
   z-index: 1;
+  animation: animation_name2 15s linear infinite;
 }
 
 .main__bg2 img {
   height: 530px;
   width: 600px;
+  animation: animation_name2 15s linear infinite;
+}
+
+@keyframes animation_name1 {
+  0% {
+    margin-top: 0;
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    margin-top: 50px;
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+@keyframes animation_name2 {
+  0% {
+    margin-bottom: 0;
+  }
+  25% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    margin-bottom: 50px;
+  }
+  75% {
+    transform: rotate(15deg);
+  }
+  100% {
+    margin-bottom: 0px;
+  }
 }
 
 @media (max-width: 767px) {
