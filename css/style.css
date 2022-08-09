@@ -379,6 +379,35 @@ a:hover {
   grid-area: g;
 }
 
+.about {
+  margin-top: 380px;
+}
+
+.about__title {
+  margin-bottom: 70px;
+}
+
+.about__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__text {
+  display: block;
+  max-width: 630px;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.about__text p + p {
+  margin-top: 65px;
+}
+
+.about__image {
+  margin-left: 15px;
+}
+
 @media (max-width: 1600px) {
   .main__bg1 {
     right: -10%;
@@ -402,6 +431,24 @@ a:hover {
   }
   .main__bg2 {
     left: -17.5%;
+  }
+  .about {
+    margin-top: 350px;
+  }
+  .about__title {
+    margin-bottom: 60px;
+  }
+  .about__text {
+    margin-right: 15px;
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .about__text p + p {
+    margin-top: 60px;
+  }
+  .about__image {
+    width: 510px;
+    height: 700px;
   }
 }
 
@@ -440,6 +487,25 @@ a:hover {
   .portf__item img {
     width: 90%;
   }
+  .about {
+    margin-top: 300px;
+  }
+  .about__title {
+    margin-bottom: 55px;
+  }
+  .about__text {
+    margin-right: 15px;
+    font-size: 27.5px;
+    line-height: 34px;
+    max-width: 475px;
+  }
+  .about__text p + p {
+    margin-top: 50px;
+  }
+  .about__image {
+    width: 475px;
+    height: 650px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -453,6 +519,24 @@ a:hover {
   }
   .main__bg2 {
     display: none;
+  }
+  .about {
+    margin-top: 200px;
+  }
+  .about__title {
+    margin-bottom: 50px;
+  }
+  .about__text {
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 400px;
+  }
+  .about__text p + p {
+    margin-top: 30px;
+  }
+  .about__image {
+    width: 364px;
+    height: 500px;
   }
 }
 
@@ -502,6 +586,24 @@ a:hover {
   }
   .portf__item {
     margin-bottom: 30px;
+  }
+  .about {
+    margin-top: 150px;
+  }
+  .about__title {
+    margin-bottom: 45px;
+  }
+  .about__text {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 325px;
+  }
+  .about__text p + p {
+    margin-top: 20px;
+  }
+  .about__image {
+    width: 250px;
+    height: 340px;
   }
 }
 
@@ -572,31 +674,26 @@ a:hover {
   .portf__item {
     margin-bottom: 20px;
   }
-}
-
-.about {
-  margin-top: 380px;
-}
-
-.about__title {
-  margin-bottom: 70px;
-}
-
-.about__body {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.about__text {
-  display: block;
-  max-width: 630px;
-  font-size: 40px;
-  line-height: 48px;
-}
-
-.about__text p + p {
-  margin-top: 65px;
+  .about {
+    margin-top: 100px;
+  }
+  .about__title {
+    margin-bottom: 37.5px;
+  }
+  .about__text {
+    font-size: 10px;
+    line-height: 14px;
+    max-width: 250px;
+    margin-right: 7.5px;
+  }
+  .about__text p + p {
+    margin-top: 12.5px;
+  }
+  .about__image {
+    margin-left: 7.5px;
+    width: 170px;
+    height: 230px;
+  }
 }
 
 @media (max-width: 364px) {
@@ -629,6 +726,25 @@ a:hover {
   }
   .portf__item {
     margin-bottom: 12.5px;
+  }
+  .about {
+    margin-top: 60px;
+  }
+  .about__title {
+    margin-bottom: 20px;
+  }
+  .about__text {
+    text-align: center;
+    margin-right: 0px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .about__text p + p {
+    margin-top: 20px;
+  }
+  .about__image {
+    display: none;
   }
 }
 
