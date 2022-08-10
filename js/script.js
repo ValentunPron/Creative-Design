@@ -29,10 +29,4 @@ $(document).ready( () => {
 		dots: false,
 		cssEase: 'linear',
 	});
-
-	// Click Image
-	console.log($('.portf__item img'));
-	$('.portf__item img').click(e => {
-		$('.wrapper').innerHTML = `${e.target}`
-	})
 });
