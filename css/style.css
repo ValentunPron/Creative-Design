@@ -545,6 +545,35 @@ a:hover {
   margin-bottom: 100px;
 }
 
+.footer {
+  margin-top: 410px;
+  margin-bottom: 74px;
+}
+
+.footer__body {
+  text-align: center;
+}
+
+.footer__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.footer__item + .footer__item {
+  margin-left: 38px;
+}
+
 @media (max-width: 1600px) {
   .main__bg1 {
     right: -10%;
@@ -701,6 +730,20 @@ a:hover {
     display: flex;
     flex-direction: row;
   }
+  .footer {
+    margin-top: 360px;
+    margin-bottom: 70px;
+  }
+  .footer__title {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .footer__list {
+    margin-top: 24px;
+  }
+  .footer__item + .footer__item {
+    margin-left: 38px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -759,6 +802,20 @@ a:hover {
   .form__textarea {
     padding-bottom: 125px;
     margin-bottom: 70px;
+  }
+  .footer {
+    margin-top: 300px;
+    margin-bottom: 66px;
+  }
+  .footer__title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .footer__list {
+    margin-top: 22px;
+  }
+  .footer__item + .footer__item {
+    margin-left: 38px;
   }
 }
 
@@ -888,6 +945,22 @@ a:hover {
   .form__textarea {
     padding-bottom: 75px;
     margin-bottom: 50px;
+  }
+  .footer {
+    margin-top: 260px;
+    margin-bottom: 60px;
+  }
+  .footer__title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .footer__list {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .footer__item + .footer__item {
+    margin-left: 34px;
   }
 }
 
@@ -1047,6 +1120,22 @@ a:hover {
     padding-bottom: 50px;
     margin-bottom: 30px;
   }
+  .footer {
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+  .footer__title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .footer__list {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .footer__item + .footer__item {
+    margin-left: 30px;
+  }
 }
 
 @media (max-width: 364px) {
@@ -1166,6 +1255,22 @@ a:hover {
   .form__textarea {
     padding-bottom: 30px;
     margin-bottom: 20px;
+  }
+  .footer {
+    margin-top: 125px;
+    margin-bottom: 30px;
+  }
+  .footer__title {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .footer__list {
+    margin-top: 17.5px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .footer__item + .footer__item {
+    margin-left: 25px;
   }
 }
 
