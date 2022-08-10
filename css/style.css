@@ -531,6 +531,9 @@ a:hover {
   background-color: transparent;
   border-bottom: 2px solid #fff;
   margin-bottom: 58px;
+  color: #BBBBBB;
+  font-size: 25px;
+  line-height: 30px;
 }
 
 .form__input::placeholder {
